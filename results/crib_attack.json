@@ -1,0 +1,47 @@
+{
+ "label_tokens": 351,
+ "zodiac_label_tokens": 7,
+ "attacks": [
+  {
+   "set": "all_labels_vs_latin",
+   "types": 25,
+   "simple": "INCONSISTENT",
+   "homophonic": "INCONSISTENT"
+  },
+  {
+   "set": "all_labels_vs_german",
+   "types": 25,
+   "simple": "INCONSISTENT",
+   "homophonic": "INCONSISTENT"
+  },
+  {
+   "set": "all_labels_vs_italian",
+   "types": 25,
+   "simple": "INCONSISTENT",
+   "homophonic": "INCONSISTENT"
+  },
+  {
+   "set": "all_labels_vs_french",
+   "types": 25,
+   "simple": "INCONSISTENT",
+   "homophonic": "INCONSISTENT"
+  },
+  {
+   "set": "all_labels_vs_hebrew_translit",
+   "types": 25,
+   "simple": "INCONSISTENT",
+   "homophonic": "INCONSISTENT"
+  },
+  {
+   "set": "all_labels_vs_all_cribs",
+   "types": 25,
+   "simple": "INCONSISTENT",
+   "homophonic": "INCONSISTENT"
+  },
+  {
+   "set": "zodiac_folio_labels_vs_zodiac_names",
+   "types": 1,
+   "note": "too few repeated label types"
+  }
+ ]
+}

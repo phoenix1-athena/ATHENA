@@ -1,0 +1,1268 @@
+{
+ "version": "ATHENA 20.0 — The Best Program",
+ "input": "data/ZL3b-n.txt",
+ "loci": 5385,
+ "words": 30430,
+ "alphabet_induction": {
+  "base_description_bits": 845315,
+  "induced_description_bits": 586954,
+  "merges": [
+   {
+    "pair": [
+     "c",
+     "h"
+    ],
+    "symbol": "ch",
+    "gain_bits": 35795.6
+   },
+   {
+    "pair": [
+     "i",
+     "n"
+    ],
+    "symbol": "in",
+    "gain_bits": 25729.7
+   },
+   {
+    "pair": [
+     "i",
+     "in"
+    ],
+    "symbol": "iin",
+    "gain_bits": 19380.4
+   },
+   {
+    "pair": [
+     "s",
+     "h"
+    ],
+    "symbol": "sh",
+    "gain_bits": 17142.1
+   },
+   {
+    "pair": [
+     "q",
+     "o"
+    ],
+    "symbol": "qo",
+    "gain_bits": 14621.1
+   },
+   {
+    "pair": [
+     "a",
+     "iin"
+    ],
+    "symbol": "aiin",
+    "gain_bits": 12936.3
+   },
+   {
+    "pair": [
+     "d",
+     "y"
+    ],
+    "symbol": "dy",
+    "gain_bits": 11516.5
+   },
+   {
+    "pair": [
+     "qo",
+     "k"
+    ],
+    "symbol": "qok",
+    "gain_bits": 7541.3
+   },
+   {
+    "pair": [
+     "o",
+     "l"
+    ],
+    "symbol": "ol",
+    "gain_bits": 6582.5
+   },
+   {
+    "pair": [
+     "a",
+     "l"
+    ],
+    "symbol": "al",
+    "gain_bits": 7863.5
+   },
+   {
+    "pair": [
+     "a",
+     "r"
+    ],
+    "symbol": "ar",
+    "gain_bits": 8463.6
+   },
+   {
+    "pair": [
+     "e",
+     "dy"
+    ],
+    "symbol": "edy",
+    "gain_bits": 5832.4
+   },
+   {
+    "pair": [
+     "a",
+     "in"
+    ],
+    "symbol": "ain",
+    "gain_bits": 8792.2
+   },
+   {
+    "pair": [
+     "o",
+     "r"
+    ],
+    "symbol": "or",
+    "gain_bits": 5271.4
+   },
+   {
+    "pair": [
+     "o",
+     "k"
+    ],
+    "symbol": "ok",
+    "gain_bits": 3765.2
+   },
+   {
+    "pair": [
+     "o",
+     "t"
+    ],
+    "symbol": "ot",
+    "gain_bits": 4908.0
+   },
+   {
+    "pair": [
+     "d",
+     "aiin"
+    ],
+    "symbol": "daiin",
+    "gain_bits": 2823.3
+   },
+   {
+    "pair": [
+     "qo",
+     "t"
+    ],
+    "symbol": "qot",
+    "gain_bits": 3623.5
+   },
+   {
+    "pair": [
+     "a",
+     "i"
+    ],
+    "symbol": "ai",
+    "gain_bits": 5105.9
+   },
+   {
+    "pair": [
+     "e",
+     "y"
+    ],
+    "symbol": "ey",
+    "gain_bits": 2580.7
+   },
+   {
+    "pair": [
+     "e",
+     "ey"
+    ],
+    "symbol": "eey",
+    "gain_bits": 2617.8
+   },
+   {
+    "pair": [
+     "c",
+     "t"
+    ],
+    "symbol": "ct",
+    "gain_bits": 3026.4
+   },
+   {
+    "pair": [
+     "c",
+     "k"
+    ],
+    "symbol": "ck",
+    "gain_bits": 3226.4
+   },
+   {
+    "pair": [
+     "ct",
+     "h"
+    ],
+    "symbol": "cth",
+    "gain_bits": 5203.6
+   },
+   {
+    "pair": [
+     "o",
+     "dy"
+    ],
+    "symbol": "ody",
+    "gain_bits": 2443.5
+   },
+   {
+    "pair": [
+     "ck",
+     "h"
+    ],
+    "symbol": "ckh",
+    "gain_bits": 5924.1
+   },
+   {
+    "pair": [
+     "edy",
+     "qok"
+    ],
+    "symbol": "edyqok",
+    "gain_bits": 1953.9
+   },
+   {
+    "pair": [
+     "d",
+     "ar"
+    ],
+    "symbol": "dar",
+    "gain_bits": 1317.7
+   },
+   {
+    "pair": [
+     "ch",
+     "ey"
+    ],
+    "symbol": "chey",
+    "gain_bits": 969.1
+   },
+   {
+    "pair": [
+     "ch",
+     "e"
+    ],
+    "symbol": "che",
+    "gain_bits": 1208.3
+   },
+   {
+    "pair": [
+     "a",
+     "m"
+    ],
+    "symbol": "am",
+    "gain_bits": 4539.2
+   },
+   {
+    "pair": [
+     "d",
+     "al"
+    ],
+    "symbol": "dal",
+    "gain_bits": 1306.8
+   },
+   {
+    "pair": [
+     "sh",
+     "e"
+    ],
+    "symbol": "she",
+    "gain_bits": 1223.8
+   },
+   {
+    "pair": [
+     "$",
+     "%"
+    ],
+    "symbol": "$%",
+    "gain_bits": 4871.9
+   },
+   {
+    "pair": [
+     "e",
+     "e"
+    ],
+    "symbol": "ee",
+    "gain_bits": 1249.6
+   },
+   {
+    "pair": [
+     "ai",
+     "r"
+    ],
+    "symbol": "air",
+    "gain_bits": 2770.0
+   },
+   {
+    "pair": [
+     "e",
+     "edy"
+    ],
+    "symbol": "eedy",
+    "gain_bits": 1140.8
+   },
+   {
+    "pair": [
+     "ch",
+     "edy"
+    ],
+    "symbol": "chedy",
+    "gain_bits": 1357.6
+   },
+   {
+    "pair": [
+     "ch",
+     "dy"
+    ],
+    "symbol": "chdy",
+    "gain_bits": 760.4
+   },
+   {
+    "pair": [
+     "sh",
+     "edy"
+    ],
+    "symbol": "shedy",
+    "gain_bits": 975.1
+   }
+  ],
+  "induced_alphabet_size": 100
+ },
+ "alphabet_vs_eva": {
+  "eva_multi_char_units": [
+   "ch",
+   "iiin",
+   "iin",
+   "in",
+   "sh"
+  ],
+  "induced_merges": [
+   "$%",
+   "ai",
+   "aiin",
+   "ain",
+   "air",
+   "al",
+   "am",
+   "ar",
+   "ch",
+   "chdy",
+   "che",
+   "chedy",
+   "chey",
+   "ck",
+   "ckh",
+   "ct",
+   "cth",
+   "daiin",
+   "dal",
+   "dar",
+   "dy",
+   "edy",
+   "edyqok",
+   "ee",
+   "eedy",
+   "eey",
+   "ey",
+   "iin",
+   "in",
+   "ody",
+   "ok",
+   "ol",
+   "or",
+   "ot",
+   "qo",
+   "qok",
+   "qot",
+   "sh",
+   "she",
+   "shedy"
+  ],
+  "agreement": [
+   "ch",
+   "iin",
+   "in",
+   "sh"
+  ],
+  "induced_but_not_eva": [
+   "$%",
+   "ai",
+   "aiin",
+   "ain",
+   "air",
+   "al",
+   "am",
+   "ar",
+   "chdy",
+   "che",
+   "chedy",
+   "chey",
+   "ck",
+   "ckh",
+   "ct",
+   "cth",
+   "daiin",
+   "dal",
+   "dar",
+   "dy",
+   "edy",
+   "edyqok",
+   "ee",
+   "eedy",
+   "eey",
+   "ey",
+   "ody",
+   "ok",
+   "ol",
+   "or",
+   "ot",
+   "qo",
+   "qok",
+   "qot",
+   "she",
+   "shedy"
+  ],
+  "eva_but_not_induced": [
+   "iiin"
+  ]
+ },
+ "boundary_tests": {
+  "within_word_cond_entropy": {
+   "real_spaces": 4.0807,
+   "spaces_deleted": 4.3942,
+   "fixed_5_chunks": 4.1032
+  },
+  "word_length_entropy_real": 3.1671,
+  "reading": "If real spaces give the LOWEST within-word entropy, the boundaries carry genuine structure; if deleted/fixed chunking ties or wins, the 'words' are a transcription artefact."
+ },
+ "double_variables": {
+  "split_channels": {
+   "body_entropy": 3.7138,
+   "modifier_entropy": 0.7114,
+   "body_modifier_mutual_information_bits": 0.5537,
+   "reading": "MI near 0 = body and modifier are independent double variables; MI large = one variable. Modifier entropy > 0 means the h/minim channel itself carries information."
+  },
+  "pair_atoms": {
+   "pair_alphabet_size": 1952,
+   "pair_h0": 9.6724,
+   "pair_h1_cond": 5.1226,
+   "per_symbol_h1_equivalent": 2.5613,
+   "reading": "If text were built on pair atoms, the pair stream should look like a normal alphabet: compare per-symbol h1 equivalent against the single-symbol h1."
+  },
+  "doubles_census": {
+   "adjacent_equal_pairs": 4883,
+   "expected_under_independence": 9001.3,
+   "ratio": 0.542,
+   "by_unit": {
+    "e": 4504,
+    "i": 203,
+    "o": 62,
+    "y": 38,
+    "d": 29,
+    "l": 17,
+    "ch": 12,
+    "a": 6
+   }
+  }
+ },
+ "logic_core": {
+  "gate": {
+   "available": true,
+   "gate_pass": true,
+   "key_recovery": 1.0,
+   "nodes": 54
+  },
+  "attacks": {
+   "types_tested": 60,
+   "token_coverage": 0.3441,
+   "by_alphabet": {
+    "eva_units": {
+     "hebrew": {
+      "outcome": "INCONSISTENT",
+      "nodes": 1
+     },
+     "egyptian": {
+      "outcome": "INCONSISTENT",
+      "nodes": 0
+     },
+     "latin": {
+      "outcome": "INCONSISTENT",
+      "nodes": 1
+     }
+    },
+    "induced": {
+     "hebrew": {
+      "outcome": "INCONSISTENT",
+      "nodes": 0
+     },
+     "egyptian": {
+      "outcome": "INCONSISTENT",
+      "nodes": 0
+     },
+     "latin": {
+      "outcome": "INCONSISTENT",
+      "nodes": 0
+     }
+    }
+   }
+  }
+ },
+ "generator_base": {
+  "model": "THE TABLE (one base, champion v4 form): global pool + local seasoning + 5% coinage",
+  "real_battery": {
+   "glyph_h0": 3.871,
+   "glyph_h1_cond": 2.617,
+   "type_token_ratio": 0.225,
+   "hapax_share": 0.6973,
+   "word_trigram_repetition": 0.0045,
+   "ed1_neighbour_density_20": 0.4432,
+   "lengths": {
+    "1": 0.0204,
+    "2": 0.079,
+    "3": 0.1835,
+    "4": 0.2288,
+    "5": 0.2365,
+    "6": 0.1478,
+    "7": 0.0689,
+    "8": 0.02,
+    "9": 0.0072,
+    "10": 0.0036,
+    "11": 0.0018,
+    "12": 0.0012,
+    "13": 0.0005,
+    "14": 0.0005,
+    "15": 0.0002,
+    "16": 0.0001,
+    "17": 0.0001,
+    "18": 0.0,
+    "20": 0.0
+   }
+  },
+  "grid": [
+   {
+    "p_local": 0.25,
+    "p_coin": 0.05,
+    "battery_distance": 0.626,
+    "battery": {
+     "glyph_h0": 3.906,
+     "glyph_h1_cond": 2.793,
+     "type_token_ratio": 0.2123,
+     "hapax_share": 0.5204,
+     "word_trigram_repetition": 0.0003,
+     "ed1_neighbour_density_20": 0.3492,
+     "lengths": {
+      "1": 0.019,
+      "2": 0.078,
+      "3": 0.1757,
+      "4": 0.2232,
+      "5": 0.23,
+      "6": 0.151,
+      "7": 0.0746,
+      "8": 0.0259,
+      "9": 0.0116,
+      "10": 0.0068,
+      "11": 0.002,
+      "12": 0.0011,
+      "13": 0.0005,
+      "14": 0.0003,
+      "15": 0.0002,
+      "16": 0.0001,
+      "17": 0.0001
+     }
+    }
+   },
+   {
+    "p_local": 0.4,
+    "p_coin": 0.05,
+    "battery_distance": 0.6,
+    "battery": {
+     "glyph_h0": 3.919,
+     "glyph_h1_cond": 2.859,
+     "type_token_ratio": 0.2177,
+     "hapax_share": 0.498,
+     "word_trigram_repetition": 0.0003,
+     "ed1_neighbour_density_20": 0.3904,
+     "lengths": {
+      "1": 0.0178,
+      "2": 0.0763,
+      "3": 0.1764,
+      "4": 0.2232,
+      "5": 0.2314,
+      "6": 0.1424,
+      "7": 0.0765,
+      "8": 0.0292,
+      "9": 0.015,
+      "10": 0.0087,
+      "11": 0.0013,
+      "12": 0.0011,
+      "13": 0.0003,
+      "14": 0.0002,
+      "15": 0.0001,
+      "16": 0.0,
+      "17": 0.0001
+     }
+    }
+   }
+  ],
+  "best_params": {
+   "p_local": 0.4,
+   "p_coin": 0.05,
+   "alpha": 1.0
+  },
+  "best_distance": 0.6,
+  "best_replicates": [
+   {
+    "glyph_h0": 3.92,
+    "glyph_h1_cond": 2.862,
+    "type_token_ratio": 0.2184,
+    "hapax_share": 0.5135,
+    "word_trigram_repetition": 0.0002,
+    "ed1_neighbour_density_20": 0.3922,
+    "lengths": {
+     "1": 0.0171,
+     "2": 0.0834,
+     "3": 0.1797,
+     "4": 0.215,
+     "5": 0.2283,
+     "6": 0.1523,
+     "7": 0.0749,
+     "8": 0.0263,
+     "9": 0.0127,
+     "10": 0.0065,
+     "11": 0.002,
+     "12": 0.0009,
+     "13": 0.0006,
+     "14": 0.0002,
+     "17": 0.0,
+     "18": 0.0001
+    }
+   },
+   {
+    "glyph_h0": 3.922,
+    "glyph_h1_cond": 2.874,
+    "type_token_ratio": 0.2205,
+    "hapax_share": 0.4989,
+    "word_trigram_repetition": 0.0004,
+    "ed1_neighbour_density_20": 0.3851,
+    "lengths": {
+     "1": 0.0187,
+     "2": 0.0776,
+     "3": 0.1742,
+     "4": 0.2206,
+     "5": 0.2279,
+     "6": 0.1523,
+     "7": 0.0757,
+     "8": 0.0293,
+     "9": 0.0121,
+     "10": 0.0076,
+     "11": 0.0013,
+     "12": 0.0012,
+     "13": 0.0003,
+     "14": 0.0006,
+     "15": 0.0004,
+     "16": 0.0002,
+     "17": 0.0001,
+     "18": 0.0
+    }
+   },
+   {
+    "glyph_h0": 3.914,
+    "glyph_h1_cond": 2.865,
+    "type_token_ratio": 0.219,
+    "hapax_share": 0.5015,
+    "word_trigram_repetition": 0.0002,
+    "ed1_neighbour_density_20": 0.3845,
+    "lengths": {
+     "1": 0.0199,
+     "2": 0.0727,
+     "3": 0.1804,
+     "4": 0.2173,
+     "5": 0.23,
+     "6": 0.1552,
+     "7": 0.0752,
+     "8": 0.0263,
+     "9": 0.0125,
+     "10": 0.0074,
+     "11": 0.0012,
+     "12": 0.0011,
+     "13": 0.0004,
+     "14": 0.0002,
+     "15": 0.0001,
+     "16": 0.0003
+    }
+   }
+  ],
+  "legacy_comparators": {
+   "table_v6_finite_stock": 0.712,
+   "table_v5_phrasebook": 1.2,
+   "machine_v2": 1.61,
+   "scribe": 2.03,
+   "machine_v1": 2.07
+  }
+ },
+ "logic_core_2": {
+  "gate": {
+   "available": true,
+   "gate_pass": true,
+   "planted_outcome": "CONSISTENT",
+   "truth_consistent": true,
+   "corrupted_outcome": "INCONSISTENT",
+   "nodes": 325,
+   "solver_truth_agreement_diagnostic_only": 0.0,
+   "cipher_class": "homophonic (many units -> one letter)"
+  },
+  "cipher_class": "homophonic substitution, EVA units",
+  "types_tested": 60,
+  "results": {
+   "hebrew": {
+    "outcome": "INCONSISTENT",
+    "nodes": 1
+   },
+   "egyptian": {
+    "outcome": "INCONSISTENT",
+    "nodes": 0
+   },
+   "latin": {
+    "outcome": "INCONSISTENT",
+    "nodes": 1
+   }
+  }
+ },
+ "gauntlet": {
+  "pass_rule": "distance<=0.40 and |hapax gap|<=0.08 and |trigram gap|<=0.003 (pre-registered)",
+  "real_battery": {
+   "glyph_h0": 3.871,
+   "glyph_h1_cond": 2.617,
+   "type_token_ratio": 0.225,
+   "hapax_share": 0.6973,
+   "word_trigram_repetition": 0.0045,
+   "ed1_neighbour_density_20": 0.4432,
+   "lengths": {
+    "1": 0.0204,
+    "2": 0.079,
+    "3": 0.1835,
+    "4": 0.2288,
+    "5": 0.2365,
+    "6": 0.1478,
+    "7": 0.0689,
+    "8": 0.02,
+    "9": 0.0072,
+    "10": 0.0036,
+    "11": 0.0018,
+    "12": 0.0012,
+    "13": 0.0005,
+    "14": 0.0005,
+    "15": 0.0002,
+    "16": 0.0001,
+    "17": 0.0001,
+    "18": 0.0,
+    "20": 0.0
+   }
+  },
+  "contenders": [
+   {
+    "name": "champion_v4",
+    "p_local": 0.4,
+    "p_coin": 0.05,
+    "phrase_dose": 0.0,
+    "battery_distance": 0.6,
+    "battery": {
+     "glyph_h0": 3.919,
+     "glyph_h1_cond": 2.859,
+     "type_token_ratio": 0.2177,
+     "hapax_share": 0.498,
+     "word_trigram_repetition": 0.0003,
+     "ed1_neighbour_density_20": 0.3904,
+     "lengths": {
+      "1": 0.0178,
+      "2": 0.0763,
+      "3": 0.1764,
+      "4": 0.2232,
+      "5": 0.2314,
+      "6": 0.1424,
+      "7": 0.0765,
+      "8": 0.0292,
+      "9": 0.015,
+      "10": 0.0087,
+      "11": 0.0013,
+      "12": 0.0011,
+      "13": 0.0003,
+      "14": 0.0002,
+      "15": 0.0001,
+      "16": 0.0,
+      "17": 0.0001
+     }
+    }
+   },
+   {
+    "name": "v7_finite_phrases",
+    "p_local": 0.4,
+    "p_coin": 0.05,
+    "phrase_dose": 0.02,
+    "battery_distance": 0.52,
+    "battery": {
+     "glyph_h0": 3.939,
+     "glyph_h1_cond": 2.897,
+     "type_token_ratio": 0.2276,
+     "hapax_share": 0.5224,
+     "word_trigram_repetition": 0.0028,
+     "ed1_neighbour_density_20": 0.3882,
+     "lengths": {
+      "1": 0.0269,
+      "2": 0.0741,
+      "3": 0.1709,
+      "4": 0.2218,
+      "5": 0.2261,
+      "6": 0.1456,
+      "7": 0.0775,
+      "8": 0.0292,
+      "9": 0.016,
+      "10": 0.0091,
+      "11": 0.0012,
+      "12": 0.0008,
+      "13": 0.0002,
+      "14": 0.0002,
+      "15": 0.0001,
+      "16": 0.0003,
+      "17": 0.0
+     }
+    }
+   },
+   {
+    "name": "v8a_coin10",
+    "p_local": 0.4,
+    "p_coin": 0.1,
+    "phrase_dose": 0.02,
+    "battery_distance": 0.628,
+    "battery": {
+     "glyph_h0": 3.967,
+     "glyph_h1_cond": 2.963,
+     "type_token_ratio": 0.2596,
+     "hapax_share": 0.5568,
+     "word_trigram_repetition": 0.0026,
+     "ed1_neighbour_density_20": 0.3698,
+     "lengths": {
+      "1": 0.0253,
+      "2": 0.0718,
+      "3": 0.1704,
+      "4": 0.2076,
+      "5": 0.2242,
+      "6": 0.1486,
+      "7": 0.0795,
+      "8": 0.0359,
+      "9": 0.0205,
+      "10": 0.0142,
+      "11": 0.0011,
+      "12": 0.0005,
+      "13": 0.0001,
+      "14": 0.0004,
+      "15": 0.0001,
+      "18": 0.0
+     }
+    }
+   },
+   {
+    "name": "v8b_coin10_local25",
+    "p_local": 0.25,
+    "p_coin": 0.1,
+    "phrase_dose": 0.02,
+    "battery_distance": 0.627,
+    "battery": {
+     "glyph_h0": 3.946,
+     "glyph_h1_cond": 2.889,
+     "type_token_ratio": 0.2562,
+     "hapax_share": 0.5782,
+     "word_trigram_repetition": 0.0026,
+     "ed1_neighbour_density_20": 0.3264,
+     "lengths": {
+      "1": 0.0236,
+      "2": 0.0764,
+      "3": 0.1688,
+      "4": 0.2185,
+      "5": 0.2219,
+      "6": 0.1469,
+      "7": 0.0809,
+      "8": 0.0316,
+      "9": 0.0166,
+      "10": 0.0112,
+      "11": 0.0012,
+      "12": 0.0012,
+      "13": 0.0004,
+      "14": 0.0005,
+      "15": 0.0003,
+      "16": 0.0001
+     }
+    }
+   }
+  ],
+  "best": "v7_finite_phrases",
+  "best_distance": 0.52,
+  "verdict": "GAUNTLET_OPEN",
+  "best_gaps": {
+   "glyph_h1_cond": 0.28,
+   "type_token_ratio": 0.0026,
+   "hapax_share": -0.1749,
+   "word_trigram_repetition": -0.0017,
+   "ed1_neighbour_density_20": -0.055
+  }
+ },
+ "residual_atlas": {
+  "folios_ranked": [
+   {
+    "folio": "f57v",
+    "words": 150,
+    "z": {
+     "ttr": -3.08,
+     "hapax_share": 0.61,
+     "mean_len": -5.37,
+     "pool_surprise": -0.25,
+     "trigram_rep": 12.0,
+     "ed1_density": 12.0
+    },
+    "deviation": 5.55
+   },
+   {
+    "folio": "f80r",
+    "words": 387,
+    "z": {
+     "ttr": -1.36,
+     "hapax_share": 0.87,
+     "mean_len": -0.55,
+     "pool_surprise": -1.55,
+     "trigram_rep": 12.0,
+     "ed1_density": 12.0
+    },
+    "deviation": 4.72
+   },
+   {
+    "folio": "f76r",
+    "words": 476,
+    "z": {
+     "ttr": -1.22,
+     "hapax_share": 0.71,
+     "mean_len": -0.8,
+     "pool_surprise": -1.59,
+     "trigram_rep": 12.0,
+     "ed1_density": 10.76
+    },
+    "deviation": 4.51
+   },
+   {
+    "folio": "f77r",
+    "words": 282,
+    "z": {
+     "ttr": -1.06,
+     "hapax_share": 0.97,
+     "mean_len": 0.5,
+     "pool_surprise": -1.56,
+     "trigram_rep": 10.55,
+     "ed1_density": 12.0
+    },
+    "deviation": 4.44
+   },
+   {
+    "folio": "f84r",
+    "words": 267,
+    "z": {
+     "ttr": -0.97,
+     "hapax_share": 0.82,
+     "mean_len": -0.08,
+     "pool_surprise": -1.81,
+     "trigram_rep": 12.0,
+     "ed1_density": 5.24
+    },
+    "deviation": 3.49
+   },
+   {
+    "folio": "f77v",
+    "words": 292,
+    "z": {
+     "ttr": -1.63,
+     "hapax_share": 1.73,
+     "mean_len": -0.24,
+     "pool_surprise": -1.8,
+     "trigram_rep": 3.32,
+     "ed1_density": 12.0
+    },
+    "deviation": 3.45
+   },
+   {
+    "folio": "f82v",
+    "words": 271,
+    "z": {
+     "ttr": -0.57,
+     "hapax_share": 0.94,
+     "mean_len": 0.07,
+     "pool_surprise": -1.49,
+     "trigram_rep": 12.0,
+     "ed1_density": 4.73
+    },
+    "deviation": 3.3
+   },
+   {
+    "folio": "f75v",
+    "words": 284,
+    "z": {
+     "ttr": -0.81,
+     "hapax_share": 0.36,
+     "mean_len": -0.6,
+     "pool_surprise": -1.51,
+     "trigram_rep": 12.0,
+     "ed1_density": 4.44
+    },
+    "deviation": 3.29
+   },
+   {
+    "folio": "f106v",
+    "words": 348,
+    "z": {
+     "ttr": 1.75,
+     "hapax_share": 2.14,
+     "mean_len": 0.13,
+     "pool_surprise": -0.83,
+     "trigram_rep": 12.0,
+     "ed1_density": 2.86
+    },
+    "deviation": 3.29
+   },
+   {
+    "folio": "f104r",
+    "words": 363,
+    "z": {
+     "ttr": 2.3,
+     "hapax_share": 2.36,
+     "mean_len": 0.5,
+     "pool_surprise": -0.43,
+     "trigram_rep": 12.0,
+     "ed1_density": -1.06
+    },
+    "deviation": 3.11
+   },
+   {
+    "folio": "f84v",
+    "words": 290,
+    "z": {
+     "ttr": -1.9,
+     "hapax_share": 0.35,
+     "mean_len": -0.73,
+     "pool_surprise": -1.93,
+     "trigram_rep": -0.3,
+     "ed1_density": 12.0
+    },
+    "deviation": 2.87
+   },
+   {
+    "folio": "f66r",
+    "words": 281,
+    "z": {
+     "ttr": 1.59,
+     "hapax_share": 1.6,
+     "mean_len": -0.51,
+     "pool_surprise": -0.39,
+     "trigram_rep": 0.0,
+     "ed1_density": 12.0
+    },
+    "deviation": 2.68
+   },
+   {
+    "folio": "f108v",
+    "words": 485,
+    "z": {
+     "ttr": -0.66,
+     "hapax_share": 1.32,
+     "mean_len": 0.25,
+     "pool_surprise": -1.35,
+     "trigram_rep": 0.0,
+     "ed1_density": 11.47
+    },
+    "deviation": 2.51
+   },
+   {
+    "folio": "f75r",
+    "words": 321,
+    "z": {
+     "ttr": -1.25,
+     "hapax_share": 1.11,
+     "mean_len": -0.17,
+     "pool_surprise": -1.72,
+     "trigram_rep": 0.0,
+     "ed1_density": 9.42
+    },
+    "deviation": 2.28
+   },
+   {
+    "folio": "f108r",
+    "words": 406,
+    "z": {
+     "ttr": -0.14,
+     "hapax_share": 1.86,
+     "mean_len": 0.51,
+     "pool_surprise": -1.19,
+     "trigram_rep": 0.0,
+     "ed1_density": 9.9
+    },
+    "deviation": 2.27
+   }
+  ],
+  "folios_scored": 73,
+  "hardest_metrics_mean_z": [
+   [
+    "ed1_density",
+    4.39
+   ],
+   [
+    "hapax_share",
+    1.54
+   ],
+   [
+    "trigram_rep",
+    1.49
+   ],
+   [
+    "pool_surprise",
+    -0.92
+   ],
+   [
+    "ttr",
+    0.61
+   ],
+   [
+    "mean_len",
+    -0.36
+   ]
+  ],
+  "labels_vs_body": {
+   "label_tokens": 351,
+   "label_types_unattested_in_body": 0.468
+  },
+  "note": "z measured against champion-generator windows of equal length"
+ },
+ "two_witness": {
+  "available": true,
+  "ZL": {
+   "words": 30430,
+   "types": 6847,
+   "glyph_h0": 3.8715,
+   "glyph_h1_cond": 2.6169,
+   "type_token_ratio": 0.225,
+   "word_trigram_repetition": 0.0045,
+   "top_words": [
+    "daiin",
+    "chedy",
+    "shedy",
+    "ol",
+    "chol",
+    "aiin",
+    "qokeedy",
+    "qokeey",
+    "chey",
+    "qokain"
+   ]
+  },
+  "IT": {
+   "words": 35369,
+   "types": 7867,
+   "glyph_h0": 3.8807,
+   "glyph_h1_cond": 2.6473,
+   "type_token_ratio": 0.2224,
+   "word_trigram_repetition": 0.0042,
+   "top_words": [
+    "daiin",
+    "ol",
+    "chedy",
+    "aiin",
+    "shedy",
+    "chol",
+    "ar",
+    "or",
+    "chey",
+    "qokeey"
+   ]
+  },
+  "metrics": {
+   "glyph_h0": {
+    "ZL": 3.8715,
+    "IT": 3.8807,
+    "rel_diff": 0.0024,
+    "verdict": "HOLDS_IN_BOTH"
+   },
+   "glyph_h1_cond": {
+    "ZL": 2.6169,
+    "IT": 2.6473,
+    "rel_diff": 0.0116,
+    "verdict": "HOLDS_IN_BOTH"
+   },
+   "type_token_ratio": {
+    "ZL": 0.225,
+    "IT": 0.2224,
+    "rel_diff": 0.0116,
+    "verdict": "HOLDS_IN_BOTH"
+   },
+   "word_trigram_repetition": {
+    "ZL": 0.0045,
+    "IT": 0.0042,
+    "rel_diff": 0.0667,
+    "verdict": "HOLDS_IN_BOTH"
+   }
+  },
+  "top10_word_overlap": 8,
+  "reading": "A fact is admitted only where both independent transcriptions agree within 10%."
+ },
+ "scepticism_suite": {
+  "fibonacci": {
+   "linear": {
+    "glyph_h1_cond": 2.6169,
+    "word_trigram_repetition": 0.0045
+   },
+   "fib_hop": {
+    "glyph_h1_cond": 2.6611,
+    "word_trigram_repetition": 0.0012
+   },
+   "random_perm": {
+    "glyph_h1_cond": 2.6645,
+    "word_trigram_repetition": 0.0004
+   },
+   "verdict": "fib_hop must beat BOTH linear and random to count as signal"
+  },
+  "euclidean": {
+   "gcd_top20_glyph_counts": 1,
+   "gcd_folio_word_counts": 1,
+   "lattice_fill": 0.0135,
+   "words_per_type": 4.4443
+  },
+  "binary": {
+   "best_printable_real": 0.372,
+   "best_printable_shuffled": 0.3683,
+   "verdict": "real must exceed shuffled to count as hidden byte structure"
+  }
+ },
+ "verdict": {
+  "deductively_excluded": [
+   "hebrew as simple substitution (eva_units alphabet): deductively excluded",
+   "egyptian as simple substitution (eva_units alphabet): deductively excluded",
+   "latin as simple substitution (eva_units alphabet): deductively excluded",
+   "hebrew as simple substitution (induced alphabet): deductively excluded",
+   "egyptian as simple substitution (induced alphabet): deductively excluded",
+   "latin as simple substitution (induced alphabet): deductively excluded",
+   "hidden byte text in 5-bit binary packing (ties shuffled control)",
+   "Euclidean/GCD arithmetic module in the counts (both GCDs are 1)",
+   "hebrew as HOMOPHONIC substitution (EVA units): deductively excluded",
+   "egyptian as HOMOPHONIC substitution (EVA units): deductively excluded",
+   "latin as HOMOPHONIC substitution (EVA units): deductively excluded"
+  ],
+  "surviving_hypotheses": [
+   "generation by the Table (one base): battery distance 0.600 — the closest reproduction of the book's statistics by any model tested"
+  ],
+  "admitted_facts": [
+   "word boundaries are real (spaces beat deleted and fixed-chunk controls)",
+   "doubling is concentrated in one unit: 'e' (4504 of 4883 adjacent doubles)",
+   "core statistics hold in both witnesses: glyph_h0, glyph_h1_cond, type_token_ratio, word_trigram_repetition",
+   "generator gauntlet still open: best distance 0.520 (v7_finite_phrases); residual gaps {'glyph_h1_cond': 0.28, 'type_token_ratio': 0.0026, 'hapax_share': -0.1749, 'word_trigram_repetition': -0.0017, 'ed1_neighbour_density_20': -0.055}",
+   "residual atlas: most generator-defying folios are f84r (628934.6), f82v (619581.3), f75v (591019.5); hardest metric to fake: trigram_rep"
+  ],
+  "open": [],
+  "bottom_line": "No tested language survives as the book's plaintext under simple substitution; the book's statistics are best reproduced by a generative Table process. ATHENA 20 claims the exclusions and the reproduction gap — nothing more, and nothing less."
+ }
+}

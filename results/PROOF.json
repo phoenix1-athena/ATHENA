@@ -1,0 +1,139 @@
+{
+ "pass_bars": {
+  "substitution_2500": 0.75,
+  "substitution_800": 0.55,
+  "homophonic_2500": 0.6,
+  "vigenere_key": 0.7,
+  "transposition_3600": 0.6
+ },
+ "tests": [
+  {
+   "test": "substitution",
+   "lang": "latin",
+   "n": 800,
+   "accuracy": 1.0,
+   "bar": 0.55,
+   "pass": true
+  },
+  {
+   "test": "substitution",
+   "lang": "latin",
+   "n": 2500,
+   "accuracy": 1.0,
+   "bar": 0.75,
+   "pass": true
+  },
+  {
+   "test": "homophonic",
+   "lang": "latin",
+   "n": 2500,
+   "accuracy": 0.18,
+   "bar": 0.6,
+   "pass": false
+  },
+  {
+   "test": "vigenere",
+   "lang": "latin",
+   "key": "ave",
+   "found_period": 3,
+   "key_recovery": 1.0,
+   "bar": 0.7,
+   "pass": true
+  },
+  {
+   "test": "vigenere",
+   "lang": "latin",
+   "key": "secretum",
+   "found_period": 8,
+   "key_recovery": 1.0,
+   "bar": 0.7,
+   "pass": true
+  },
+  {
+   "test": "transposition",
+   "lang": "latin",
+   "n": 3600,
+   "k": 6,
+   "accuracy": 0.06,
+   "bar": 0.6,
+   "pass": false
+  },
+  {
+   "test": "substitution",
+   "lang": "english",
+   "n": 800,
+   "accuracy": 1.0,
+   "bar": 0.55,
+   "pass": true
+  },
+  {
+   "test": "substitution",
+   "lang": "english",
+   "n": 2500,
+   "accuracy": 1.0,
+   "bar": 0.75,
+   "pass": true
+  },
+  {
+   "test": "homophonic",
+   "lang": "english",
+   "n": 2500,
+   "accuracy": 0.185,
+   "bar": 0.6,
+   "pass": false
+  },
+  {
+   "test": "vigenere",
+   "lang": "english",
+   "key": "ave",
+   "found_period": 3,
+   "key_recovery": 1.0,
+   "bar": 0.7,
+   "pass": true
+  },
+  {
+   "test": "vigenere",
+   "lang": "english",
+   "key": "secretum",
+   "found_period": 8,
+   "key_recovery": 1.0,
+   "bar": 0.7,
+   "pass": true
+  },
+  {
+   "test": "transposition",
+   "lang": "english",
+   "n": 3600,
+   "k": 6,
+   "accuracy": 0.059,
+   "bar": 0.6,
+   "pass": false
+  },
+  {
+   "test": "logic_simple_gate",
+   "pass": true,
+   "detail": {
+    "available": true,
+    "gate_pass": true,
+    "key_recovery": 1.0,
+    "nodes": 54
+   }
+  },
+  {
+   "test": "logic_homophonic_soundness_gate",
+   "pass": true,
+   "detail": {
+    "available": true,
+    "gate_pass": true,
+    "planted_outcome": "CONSISTENT",
+    "truth_consistent": true,
+    "corrupted_outcome": "INCONSISTENT",
+    "nodes": 325,
+    "solver_truth_agreement_diagnostic_only": 0.0,
+    "cipher_class": "homophonic (many units -> one letter)"
+   }
+  }
+ ],
+ "passed": 10,
+ "total": 14
+}
