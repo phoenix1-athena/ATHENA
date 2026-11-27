@@ -1,6 +1,6 @@
 # ATHENA — a Voynich manuscript research workbench
 
-**Anonymous release, 2026-11-25. Authors: Phoenix 1 and Chris Marlin.** Published under the name Phoenix 1; no affiliation.
+**Anonymous release, 2026-11-25. Authors: Phoenix 1, Chris Marlin, and James Carpenter.** Published under the name Phoenix 1; no affiliation.
 The work is offered as-is for verification and reuse.
 
 ATHENA is a dependency-free Python (stdlib-only) workbench for the
