@@ -37,7 +37,7 @@ manuscript proposals withheld by design.
   mirrors.
 - `corpora/` — Egyptian (Pyramid Texts CoNLL-U + 42,166-form MdC lexicon),
   Hebrew (Westminster Leningrad Codex, 55,643 consonantal types after
-  nikud stripping), Latin (Caesar).
+  nikud stripping), Latin (Caesar), Greek (Homer, Iliad — Perseus TEI, 84,129 words; added 2026-11-26), Italian (Dante, Divina Commedia: Inferno, 34,321 words; added 2026-11-26).
 - `results/` — machine-readable result files for the runs summarised in
   `FINDINGS_SUMMARY.md`.
 
