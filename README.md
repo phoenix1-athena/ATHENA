@@ -44,6 +44,13 @@ manuscript proposals withheld by design.
 Run: `python3 athena20.py --self-test` then
 `python3 athena20.py --input data/ZL3b-n.txt`
 
+## Status — 2026-11-26
+
+- **Greek and Italian join the panel.** The two corpora above close a gap noted in the original release; the deductive logic panel now tests five languages against the manuscript.
+- **ATHENA: Voynich Breaker** — a tap-only cipher game built from real Voynich word-types — was built on 2026-11-26; store releases in progress.
+- **Phoenix 1, Inc.**, a Tennessee C-corporation, is being formed to carry the work.
+- The ATHENA 20 master run (core + cipher zoo + breaker, both witnesses) is in progress; consolidated results will be posted here when verified.
+
 ## Licence
 
 Code and findings: public domain (CC0) as far as the releaser can grant.
