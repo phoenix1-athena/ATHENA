@@ -47,6 +47,7 @@ Run: `python3 athena20.py --self-test` then
 ## Status — 2026-11-26
 
 - **Greek and Italian join the panel.** The two corpora above close a gap noted in the original release; the deductive logic panel now tests five languages against the manuscript.
+- **All-languages sweep (2026-11-26):** Greek and Italian faced the deductive panel on both witnesses — INCONSISTENT under simple and homophonic substitution, like Hebrew, Egyptian and Latin before them. The substitution family is now excluded for five languages.
 - **ATHENA: Voynich Breaker** — a tap-only cipher game built from real Voynich word-types — was built on 2026-11-26; store releases in progress.
 - **Phoenix 1, Inc.**, a Tennessee C-corporation, is being formed to carry the work.
 - The ATHENA 20 master run (core + cipher zoo + breaker, both witnesses) is in progress; consolidated results will be posted here when verified.
